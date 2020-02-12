@@ -22,7 +22,7 @@ Portfolio
 - Styling/developing the menu
 - Layout is getting better / designing the buttons/anchors !!! FINALLY FOUND AN AWESOME WAY TO CENTER THE TEXT IN MY ANCHOR BUTTONZ
 - Getting bored after 4H working on this part
-- display: none'd the shit out of the menu ^^ starting my nice design sidebar
+- display: none'd the menu ^^ starting my nice design sidebar
 - design is doing good; function to open/close the menu so first add of javascript to the page
 - feels like because of the number of classes/different/languages there seem to be naming issues not yet big enought to retake the whole naming synthax
 - posting blured screenshot on facebook and linked in
