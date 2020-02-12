@@ -55,6 +55,7 @@
 
 
 .mainMenuLinks
+    position: relative
     display: block
     background-color: $colorFifth
     width: 80vw
@@ -63,7 +64,7 @@
     // https://stackoverflow.com/questions/21444096/how-to-center-text-inside-anchor-tag used and adapted
     text-align: center
     line-height: 2.5rem
-    border-radius: 0.5rem
+    border-radius: 3px
     .anchorGradient
         font-family: $fontContent
         // background: linear-gradient(to right, $colorPrimary, $colorSecondary) //Could also be background image
@@ -71,6 +72,11 @@
         color: $colorPrimary//transparent
     *
         padding: 0
+    img 
+        position: absolute
+        transform: scale(0.08) rotate(-0.1turn)
+        top: -218px
+        left: -169px
 
 #sideBarWrapper
     position: fixed
@@ -109,6 +115,11 @@
         justify-content: space-between
         ul 
             display: flex
+        img 
+            position: absolute
+            transform: scale(0.07) rotate(-0.15turn)
+            top: -218px
+            left: -386px
     .logo
         display: flex
         background-color: $colorFifth

@@ -67,6 +67,7 @@
 }
 
 .mainMenuLinks {
+  position: relative;
   display: block;
   background-color: #1c2321;
   width: 80vw;
@@ -74,7 +75,7 @@
   margin: 1rem;
   text-align: center;
   line-height: 2.5rem;
-  border-radius: 0.5rem;
+  border-radius: 3px;
 }
 
 .mainMenuLinks .anchorGradient {
@@ -84,6 +85,14 @@
 
 .mainMenuLinks * {
   padding: 0;
+}
+
+.mainMenuLinks img {
+  position: absolute;
+  -webkit-transform: scale(0.08) rotate(-0.1turn);
+          transform: scale(0.08) rotate(-0.1turn);
+  top: -218px;
+  left: -169px;
 }
 
 #sideBarWrapper {
@@ -141,6 +150,13 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  #mainMenu img {
+    position: absolute;
+    -webkit-transform: scale(0.07) rotate(-0.15turn);
+            transform: scale(0.07) rotate(-0.15turn);
+    top: -218px;
+    left: -386px;
   }
   .logo {
     display: -webkit-box;
@@ -252,8 +268,11 @@ main {
   border: 1px solid black;
   -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.75);
           box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.75);
+          box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.75);
   margin: 10px 0;
   padding: 20px;
+  border-radius: 3px;
 }
 
 .see-through-box {
@@ -265,6 +284,7 @@ main {
           box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.75);
   margin: 10px 0;
   padding: 20px;
+  border-radius: 3px;
 }
 
 @media screen and (min-width: 1200px) {
