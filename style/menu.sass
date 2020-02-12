@@ -1,0 +1,131 @@
+// Global css variables import
+@import 'codification'
+
+// body
+//     font-family: $fontContent
+//     background-color: $colorPrimary
+// Test code for @import link in sass - it was way easier that I thought
+
+// LOGO DESIGN
+.logo
+    display: flex
+    background-color: $colorFifth
+    height: 40vw
+    width: 40vw
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    border-radius: 1rem
+    margin: 1rem
+    padding: 0.5rem
+
+#symbolBorder
+    border: 2px solid $colorPrimary
+    border-radius: 50%
+    width: 80%
+    height: 80%
+    display: flex
+    justify-content: center
+    align-items: center
+        //! STILL NEED TO CENTER DAT THANG
+#symbol
+    font-size: 4rem
+    color: $colorPrimary
+            // border: 1px solid $colorPrimary
+            // border-radius: 50%
+#name
+    font-family: $fontTitles
+        // This part i'm proud of ... Looked up text gradient and found
+        // https://cssgradient.io/blog/css-gradient-text/
+        // But it's out of date and non standard, so converted it to supported code
+    // background: linear-gradient(to right, $colorPrimary, $colorSecondary) //Could also be background image
+    // background-clip: text
+    color: $colorPrimary//transparent
+
+#mainMenu
+    display: none
+    flex-direction: column
+    background-color: lighten($colorFourth, 10)
+    height: 100vh
+    padding: 2rem
+    align-items: center
+    justify-content: space-around
+    ul
+        list-style: none
+
+
+.mainMenuLinks
+    display: block
+    background-color: $colorFifth
+    width: 80vw
+    height: 2.5rem
+    margin: 1rem
+    // https://stackoverflow.com/questions/21444096/how-to-center-text-inside-anchor-tag used and adapted
+    text-align: center
+    line-height: 2.5rem
+    border-radius: 0.5rem
+    .anchorGradient
+        font-family: $fontContent
+        // background: linear-gradient(to right, $colorPrimary, $colorSecondary) //Could also be background image
+        // background-clip: text
+        color: $colorPrimary//transparent
+    *
+        padding: 0
+
+#sideBarWrapper
+    position: fixed
+    right: 0
+    
+#bigBar
+    background-color: lighten($colorFourth, 10)
+    height: 100vh
+    width: 3vw
+    border-radius: 1rem 0 0 1rem
+    position: relative
+    opacity: 0.85
+    
+#buttonBar
+    position: absolute
+    top: 50%
+    left: -100%
+    transform: translate(-50%,-50%)
+    background-color: lighten($colorFourth, 10)
+    height: 5rem
+    width: 5rem
+    border-radius: 2rem 0 0 2rem
+    display: flex
+    font-size: 3rem
+    justify-content: center
+    align-items: center
+    opacity: 0.85
+
+
+// Large devices (laptops/desktops, 1200px and up) */
+@media screen and (min-width: 1200px)
+    #mainMenu
+        display: flex
+        height: 100px
+        flex-direction: row
+        justify-content: space-between
+        ul 
+            display: flex
+    .logo
+        display: flex
+        background-color: $colorFifth
+        height: 50px
+        width: 50px
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        border-radius: 1rem
+        margin: 1rem
+        padding: 0.5rem
+        #name
+            display: none
+    #bigBar
+        display: none
+    .mainMenuLinks
+        width: 120px
+    #symbol
+        font-size: 0.8rem
+    

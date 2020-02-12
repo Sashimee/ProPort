@@ -1,0 +1,42 @@
+hr
+    border-top: 2px solid black
+    margin: 1rem
+
+main 
+    overflow: hidden
+    
+.boxwrapper
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-between
+    //overflow: hidden
+    margin-top: 20px
+    margin-bottom: 20px
+
+.image
+    background-size: cover
+    background-attachment: fixed
+    height: 200px
+
+.top
+    background-image: url(https://picsum.photos/1920/1080)
+
+.mid
+    background-image: url(https://picsum.photos/1920/1080)
+
+.low
+    background-image: url(https://picsum.photos/1920/1080)
+.box
+    width: 90vw
+    border: 1px solid black
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75)
+    margin: 10px 0
+    padding: 20px
+
+// Large devices (laptops/desktops, 1200px and up) */
+@media screen and (min-width: 1200px)
+    .box
+        width: 98vw
+    .image
+        height: 500px
