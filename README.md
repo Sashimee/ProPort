@@ -1,4 +1,4 @@
-# PortfolioProject
+# ProPort
 Portfolio
 --- DAY 1 ---
 
@@ -33,4 +33,9 @@ Portfolio
 - bughunting
 - changing colors
 - taking site offline, need to redo jquery and json parts
-- linking entire exercises from course since this is my private fork - public fork will not include those
+
+--- Day 3 ---
+- box design
+- some images
+- bugfixing
+- menu transparency
