@@ -2,7 +2,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #413c58;
+  background-color: #1c2321;
   height: 40vw;
   width: 40vw;
   -webkit-box-orient: vertical;
@@ -21,7 +21,7 @@
 }
 
 #symbolBorder {
-  border: 2px solid #f2dda4;
+  border: 2px solid #7d98a1;
   border-radius: 50%;
   width: 80%;
   height: 80%;
@@ -38,12 +38,12 @@
 
 #symbol {
   font-size: 4rem;
-  color: #f2dda4;
+  color: #7d98a1;
 }
 
 #name {
   font-family: "Open Sans", sans-serif;
-  color: #f2dda4;
+  color: #7d98a1;
 }
 
 #mainMenu {
@@ -52,7 +52,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #c2d8d3;
+  background-color: #757e8e;
   height: 100vh;
   padding: 2rem;
   -webkit-box-align: center;
@@ -68,7 +68,7 @@
 
 .mainMenuLinks {
   display: block;
-  background-color: #413c58;
+  background-color: #1c2321;
   width: 80vw;
   height: 2.5rem;
   margin: 1rem;
@@ -79,7 +79,7 @@
 
 .mainMenuLinks .anchorGradient {
   font-family: "Montserrat", sans-serif;
-  color: #f2dda4;
+  color: #7d98a1;
 }
 
 .mainMenuLinks * {
@@ -92,7 +92,7 @@
 }
 
 #bigBar {
-  background-color: #c2d8d3;
+  background-color: #757e8e;
   height: 100vh;
   width: 3vw;
   border-radius: 1rem 0 0 1rem;
@@ -106,7 +106,7 @@
   left: -100%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background-color: #c2d8d3;
+  background-color: #757e8e;
   height: 5rem;
   width: 5rem;
   border-radius: 2rem 0 0 2rem;
@@ -146,7 +146,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-color: #413c58;
+    background-color: #1c2321;
     height: 50px;
     width: 50px;
     -webkit-box-orient: vertical;
@@ -199,8 +199,12 @@ p {
 }
 
 hr {
-  border-top: 2px solid black;
+  border-top: 2px solid #5e6572;
   margin: 1rem;
+}
+
+h1, h2, h3, h4, p {
+  color: #5e6572;
 }
 
 main {
