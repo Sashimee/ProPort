@@ -7,6 +7,12 @@ hr
 h1,h2,h3,h4,p
     color: $colorFourth
 
+h2
+    text-align: center
+
+p,h3 
+    margin-top: 1rem
+
 main 
     overflow: hidden
     
@@ -22,7 +28,7 @@ main
 .image
     background-size: cover
     background-attachment: fixed
-    height: 200px
+    height: 50px
 
 .top
     background-image: url(https://picsum.photos/1920/1080)
@@ -50,9 +56,22 @@ main
     padding: 20px
     border-radius: 3px
 
+.call-to-action
+    background-color: lighten($colorFourth, 30)
+    text-align: center
+    line-height: 2.5rem
+    border-radius: 3px
+    color: black
+    padding: 0.8rem
+
+.cntr
+    text-align: center
+    margin-top: 1rem
 // Large devices (laptops/desktops, 1200px and up) */
 @media screen and (min-width: 1200px)
     .box, .see-through-box
         width: 98vw
     .image
-        height: 500px
+        height: 10vh
+    h2,h3,h4,h5,p
+        text-align: center

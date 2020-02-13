@@ -7,6 +7,14 @@ h1, h2, h3, h4, p {
   color: #5e6572;
 }
 
+h2 {
+  text-align: center;
+}
+
+p, h3 {
+  margin-top: 1rem;
+}
+
 main {
   overflow: hidden;
 }
@@ -32,7 +40,7 @@ main {
 .image {
   background-size: cover;
   background-attachment: fixed;
-  height: 200px;
+  height: 50px;
 }
 
 .top {
@@ -71,12 +79,29 @@ main {
   border-radius: 3px;
 }
 
+.call-to-action {
+  background-color: #adb2bc;
+  text-align: center;
+  line-height: 2.5rem;
+  border-radius: 3px;
+  color: black;
+  padding: 0.8rem;
+}
+
+.cntr {
+  text-align: center;
+  margin-top: 1rem;
+}
+
 @media screen and (min-width: 1200px) {
   .box, .see-through-box {
     width: 98vw;
   }
   .image {
-    height: 500px;
+    height: 10vh;
+  }
+  h2, h3, h4, h5, p {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=home.css.map */
