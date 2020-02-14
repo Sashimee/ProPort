@@ -32,7 +32,7 @@ main {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  height: 200vh;
+  height: 100vh;
 }
 
 .image {
