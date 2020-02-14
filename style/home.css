@@ -38,7 +38,7 @@ main {
 .image {
   background-size: cover;
   background-attachment: fixed;
-  background-image: url(https://picsum.photos/1920/1080);
+  background-image: url(../img/AdobeStock_14964377.jpeg);
 }
 
 .top {
@@ -46,7 +46,7 @@ main {
 }
 
 .mid {
-  height: 2.5rem;
+  height: 2.2rem;
 }
 
 .low {
@@ -90,6 +90,21 @@ main {
   }
   h2, h3, h4, h5, p {
     text-align: center;
+  }
+  .top {
+    display: none;
+  }
+  .mid {
+    display: none;
+  }
+  .low {
+    height: 35vh;
+  }
+  .boxwrapper {
+    height: 100vh;
+  }
+  .smaller {
+    height: 94vh;
   }
 }
 /*# sourceMappingURL=home.css.map */

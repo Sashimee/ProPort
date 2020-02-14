@@ -54,7 +54,7 @@
           flex-direction: column;
   background-color: #757e8e;
   height: 100vh;
-  padding: 2rem;
+  padding: 2.5rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -139,7 +139,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 100px;
+    height: 5vh;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
