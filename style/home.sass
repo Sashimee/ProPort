@@ -1,60 +1,61 @@
 @import 'codification'
 
-hr
+hr // custom hr bar
     border-top: 2px solid $colorFourth
     margin: 1rem
 
-h1,h2,h3,h4,p
+h1,h2,h3,h4,p //text color
     color: $colorFourth
 
-h2
+h2 // all the h2 to the middle
     text-align: center
 
-p,h3 
+p,h3 //paragraph settings
     margin-top: 1rem
 
-main 
+main // hide the shadows
     overflow: hidden
     
-.boxwrapper
+.boxwrapper // div wrapper for horizontal display
     display: flex
     flex-direction: column
     align-items: center
-    justify-content: space-between
-    //overflow: hidden
-    margin-top: 20px
-    margin-bottom: 20px
+    justify-content: space-around
+    //margin-top: 1rem //20px
+    //margin-bottom: 1rem //20px
+    height: 200vh
 
-.image
+.image // nice image setting
     background-size: cover
     background-attachment: fixed
-    height: 50px
-
-.top
+    //height: 50px
     background-image: url(https://picsum.photos/1920/1080)
+
+.top // specific classes for box positions to get different pictures
+    height: 1rem
 
 .mid
-    background-image: url(https://picsum.photos/1920/1080)
+    height: 2.5rem
 
 .low
-    background-image: url(https://picsum.photos/1920/1080)
-.box
+    height: 3.5rem
+
+.box // normal box setting
     width: 90vw
     border: 1px solid black
     box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.75), 0px 0px 3px 1px rgba(0,0,0,0.75)
-    margin: 10px 0
+    //margin: 10px 0
     padding: 20px
     border-radius: 3px
 
-.see-through-box
+.see-through-box //general see through box setting
     width: 90vw
     border: 1px solid black
     box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.75), 0px 0px 3px 1px rgba(0,0,0,0.75)
-    margin: 10px 0
-    padding: 20px
+    //margin: 10px 0
     border-radius: 3px
 
-.call-to-action
+.call-to-action // Call to action button design
     background-color: lighten($colorFourth, 30)
     text-align: center
     line-height: 2.5rem
@@ -62,7 +63,7 @@ main
     color: black
     padding: 0.8rem
 
-.cntr
+.cntr //Class for the call to action div to center the button
     text-align: center
     margin-top: 1rem
 // Large devices (laptops/desktops, 1200px and up) */

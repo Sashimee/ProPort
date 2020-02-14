@@ -248,29 +248,27 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 200vh;
 }
 
 .image {
   background-size: cover;
   background-attachment: fixed;
-  height: 50px;
+  background-image: url(https://picsum.photos/1920/1080);
 }
 
 .top {
-  background-image: url(https://picsum.photos/1920/1080);
+  height: 1rem;
 }
 
 .mid {
-  background-image: url(https://picsum.photos/1920/1080);
+  height: 2.5rem;
 }
 
 .low {
-  background-image: url(https://picsum.photos/1920/1080);
+  height: 3.5rem;
 }
 
 .box {
@@ -278,7 +276,6 @@ main {
   border: 1px solid black;
   -webkit-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.75), 0px 0px 3px 1px rgba(0, 0, 0, 0.75);
           box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.75), 0px 0px 3px 1px rgba(0, 0, 0, 0.75);
-  margin: 10px 0;
   padding: 20px;
   border-radius: 3px;
 }
@@ -288,8 +285,6 @@ main {
   border: 1px solid black;
   -webkit-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.75), 0px 0px 3px 1px rgba(0, 0, 0, 0.75);
           box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.75), 0px 0px 3px 1px rgba(0, 0, 0, 0.75);
-  margin: 10px 0;
-  padding: 20px;
   border-radius: 3px;
 }
 
