@@ -88,9 +88,6 @@ main {
   .box, .see-through-box {
     width: 98vw;
   }
-  .image {
-    height: 10vh;
-  }
   h2, h3, h4, h5, p {
     text-align: center;
   }
