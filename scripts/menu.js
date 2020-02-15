@@ -41,3 +41,9 @@ function closeMenu() {
     menu.style.display = "none";
     main.style.display = "initial";
 }
+
+/// REMOVE THIS AND PLACE INTO GENERAL JS THIS IS NOT FOR THE MENU
+
+body.addEventListener("load", setTimeout(function() {
+    window.scrollTo(0, 1);
+}), 100);
