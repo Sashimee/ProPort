@@ -9,7 +9,7 @@
 // LOGO DESIGN
 .logo
     display: flex
-    background-color: $colorFifth
+    background-color: darken($colorSecondary, 40)
     height: 40vw
     width: 40vw
     flex-direction: column
@@ -47,7 +47,7 @@
 #mainMenu
     display: none
     flex-direction: column
-    background-color: lighten($colorFourth, 10)
+    background-color: lighten($colorFifth, 10)
     height: 100vh
     padding: 2rem
     align-items: center
@@ -59,7 +59,7 @@
 .mainMenuLinks
     position: relative
     display: block
-    background-color: $colorFifth
+    background-color: darken($colorSecondary, 40)
     width: 80vw
     height: 2.5rem
     margin: 1rem
@@ -87,7 +87,7 @@
     //opacity: 0.85
     
 #bigBar
-    background-color: lighten($colorFourth, 10)
+    background-color: lighten($colorFifth, 2)
     height: 100vh
     width: 3vw
     // border-radius: 1rem 0 0 1rem
@@ -101,7 +101,7 @@
     top: 10%
     right: -3rem
     transform: translate(-50%,-50%)
-    background-color: lighten($colorFourth, 10)
+    background-color: lighten($colorFifth, 0)
     height: 5rem
     width: 5rem
     border-radius: 2rem 0 0 2rem
@@ -128,12 +128,8 @@
             left: -386px
     .logo
         display: flex
-        background-color: $colorFifth
         height: 50px
         width: 50px
-        flex-direction: column
-        align-items: center
-        justify-content: center
         border-top-left-radius: 1rem
         border-bottom-right-radius: 1rem
         margin: 1rem
