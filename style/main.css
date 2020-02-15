@@ -161,15 +161,10 @@
     left: -386px;
   }
   .logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     height: 50px;
     width: 50px;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    margin: 1rem;
-    padding: 0.5rem;
   }
   .logo #name {
     display: none;

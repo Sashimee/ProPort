@@ -26,15 +26,12 @@ main // hide the shadows
     flex-direction: column
     align-items: center
     justify-content: space-around
-    //margin-top: 1rem //20px
-    //margin-bottom: 1rem //20px
     height: 100vh
 
 .image // nice image setting
     background-size: cover
     background-attachment: fixed
-    //height: 50px
-    background-image: url(../img/AdobeStock_14964377resize.jpg)
+    background-image: url(../img/mobile.jpg)
 
 .top // specific classes for box positions to get different pictures
     height: 1rem
@@ -50,15 +47,13 @@ main // hide the shadows
     //border: 1px solid black
     //box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75), inset 0px 0px 3px 1px rgba(0,0,0,0.75)
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 30px 1px rgba(0, 0, 0, 0.2)//, inset 0px 0px 3px 1px rgba(0,0,0,0.2)
-    //margin: 10px 0
     padding: 20px
     border-radius: 3px
 
 .see-through-box //general see through box setting
     width: 90vw
     //border: 1px solid black
-    //box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 40px 1px rgba(0, 0, 0, 0.2)//, inset 0px 0px 3px 1px rgba(0,0,0,0.2)
-    //margin: 10px 0
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 40px 1px rgba(0, 0, 0, 0.2)//, inset 0px 0px 3px 1px rgba(0,0,0,0.2)
     border-radius: 3px
 
 .call-to-action // Call to action button design
@@ -76,8 +71,6 @@ main // hide the shadows
 @media screen and (min-width: 1200px)
     .box, .see-through-box
         width: 98vw
-    //.image
-        //height: 10vh
     h2,h3,h4,h5,p
         text-align: center
     .top
@@ -95,3 +88,5 @@ main // hide the shadows
         justify-content: center
         div
             margin: 1rem
+    .image
+        background-image: url(../img/laptop.jpg)
