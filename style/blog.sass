@@ -6,17 +6,19 @@ hr // custom hr bar
 
 h1,h2,h3,h4,p //text color
     color: $colorFourth
-
-h1,h2,h3 // all the h2 to the middle
-    text-align: center
-
 h1,h2,h3,h4,h5,h6 
     font-family: $fontTitles
 p,a 
     font-family: $fontContent
+    
+h1 // all the h2 to the middle
+    text-align: center
 
 p,h3 //paragraph settings
     margin-top: 1rem
+
+.blog-date
+    text-align: right
 
 main // hide the shadows
     overflow: hidden
@@ -36,7 +38,7 @@ main // hide the shadows
     //height: 50px
     background-image: url(../img/AdobeStock_14964377.jpeg)
 
-.top // specific classes for box positions to get different pictures
+.top // specific classes for box positions to get different pictures ! class name obsolete since i just need them to specify 3 different sizes
     height: 1rem
 
 .mid
@@ -57,7 +59,7 @@ main // hide the shadows
 .see-through-box //general see through box setting
     width: 90vw
     //border: 1px solid black
-    //box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 40px 1px rgba(0, 0, 0, 0.2)//, inset 0px 0px 3px 1px rgba(0,0,0,0.2)
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 40px 1px rgba(0, 0, 0, 0.2)//, inset 0px 0px 3px 1px rgba(0,0,0,0.2)
     //margin: 10px 0
     border-radius: 3px
 

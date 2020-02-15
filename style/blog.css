@@ -7,10 +7,6 @@ h1, h2, h3, h4, p {
   color: #5e6572;
 }
 
-h1, h2, h3 {
-  text-align: center;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
 }
@@ -19,8 +15,16 @@ p, a {
   font-family: "Montserrat", sans-serif;
 }
 
+h1 {
+  text-align: center;
+}
+
 p, h3 {
   margin-top: 1rem;
+}
+
+.blog-date {
+  text-align: right;
 }
 
 main {
@@ -71,6 +75,8 @@ main {
 
 .see-through-box {
   width: 90vw;
+  -webkit-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 40px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 40px 1px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
 }
 
@@ -122,4 +128,4 @@ main {
     margin: 1rem;
   }
 }
-/*# sourceMappingURL=home.css.map */
+/*# sourceMappingURL=blog.css.map */

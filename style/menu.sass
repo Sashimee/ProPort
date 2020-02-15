@@ -15,7 +15,9 @@
     flex-direction: column
     align-items: center
     justify-content: center
-    border-radius: 1rem
+    //border-radius: 1rem
+    border-top-left-radius: 3rem
+    border-bottom-right-radius: 3rem
     margin: 1rem
     padding: 0.5rem
 
@@ -47,7 +49,7 @@
     flex-direction: column
     background-color: lighten($colorFourth, 10)
     height: 100vh
-    padding: 2.5rem
+    padding: 2rem
     align-items: center
     justify-content: space-around
     ul
@@ -82,6 +84,7 @@
     position: fixed
     right: 0
     top: 0
+    //opacity: 0.85
     
 #bigBar
     background-color: lighten($colorFourth, 10)
@@ -96,7 +99,7 @@
 #buttonBar
     position: absolute
     top: 10%
-    left: -100%
+    right: -3rem
     transform: translate(-50%,-50%)
     background-color: lighten($colorFourth, 10)
     height: 5rem
@@ -106,14 +109,14 @@
     font-size: 3rem
     justify-content: center
     align-items: center
-    opacity: 0.85
+    //opacity: 0.85
 
 
 // Large devices (laptops/desktops, 1200px and up) */
 @media screen and (min-width: 1200px)
     #mainMenu
         display: flex
-        height: 5vh
+        height: 4.5vh
         flex-direction: row
         justify-content: space-between
         ul 
@@ -131,7 +134,8 @@
         flex-direction: column
         align-items: center
         justify-content: center
-        border-radius: 1rem
+        border-top-left-radius: 1rem
+        border-bottom-right-radius: 1rem
         margin: 1rem
         padding: 0.5rem
         #name
