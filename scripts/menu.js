@@ -42,8 +42,8 @@ function closeMenu() {
     main.style.display = "initial";
 }
 
-/// REMOVE THIS AND PLACE INTO GENERAL JS THIS IS NOT FOR THE MENU
+// /// REMOVE THIS AND PLACE INTO GENERAL JS THIS IS NOT FOR THE MENU
 
-body.addEventListener("load", setTimeout(function() {
-    window.scrollTo(0, 1);
-}), 100);
+// body.addEventListener("load", setTimeout(function() {
+//     window.scrollTo(0, 1);
+// }), 100);
