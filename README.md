@@ -12,16 +12,16 @@ Portfolio
 --- v0.3 ---
 - box design
 - some images
-- bugfixing
+- bug fixing
 - menu transparency
 - new repo because of it
 
 --- v0.2 ---
 
 - responsive menu design for >1200px
-- bughunting
-- changing colors
-- redo jquery and json parts
+- bug hunting
+- changing colours
+- redo jQuery and json parts
 
 --- v0.1 ---
 
@@ -29,16 +29,16 @@ Portfolio
 - Defining Scope
 - Design choices : 
     - Fonts
-    - Colors
-- Coding imports + deciding on coment strategy
+    - Colours
+- Coding imports + deciding on comment strategy
 - First SASS style + generating CSS + Linking
 - Font var definition
 - Discovered SASS import is even easier then I thought
-- Tip to myself : Take a fun aproach, accept frustration
+- Tip to myself : Take a fun approach, accept frustration
 - separating all the css by elements, etc...
 - Firt menu design steps, I want a logo ! => Free logo creator sites are bad, desiginng one in CSS
 - Learned about font gradient
-- learned to convert old webkit code into actually usable code
+- learned to convert old webkit code into usable code
 - migrating this list to this document. Before, it was handwritten
 - SASS compiler doesn't compile the target sass import as intended ... Going to use a tool Igor told me
 - Styling/developing the menu
@@ -47,4 +47,4 @@ Portfolio
 - display: none'd the menu ^^ starting my nice design sidebar
 - design is doing good; function to open/close the menu so first add of javascript to the page
 - feels like because of the number of classes/different/languages there seem to be naming issues not yet big enought to retake the whole naming synthax
-- posting blured screenshot on facebook and linked in
+- posting blured screenshot on Facebook and linked in
