@@ -5,7 +5,7 @@ Portfolio
 - Cleaning README.md
 - currently online on sashimee.com because of a pitch in front of my class
 - changing the "versioning syntax"
--  
+- renamed blog to projects
 
 --- v0.3 ---
 - box design
