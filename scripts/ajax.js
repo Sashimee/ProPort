@@ -37,7 +37,7 @@ function pokemonChoice() {
         const imageSkeletal = $("<img>");
         imageSkeletal.attr("src", pokeList.sprites.front_default);
         imageSkeletal.attr("class", "disposable")
-        $(".box").append(imageSkeletal);
+        $(".flexer").append(imageSkeletal);
         //populate unordered list
         for (const attack of pokeList.abilities) {
             const liMockupClone = liMockup.clone();

@@ -3,9 +3,11 @@ Portfolio
 
 --- v0.4 ---
 - Cleaning README.md
-- currently online on sashimee.com because of a pitch in front of my class
+- currently online on sashimee.com
 - changing the "versioning syntax"
 - renamed blog to projects
+- integrated an example of an ajax call
+- Home content redesign
 
 --- v0.3 ---
 - box design

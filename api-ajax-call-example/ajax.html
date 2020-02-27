@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Fira+Code|Montserrat|Open+Sans&display=swap" rel="stylesheet" />
     <!--Link to main css-->
     <link rel="stylesheet" href="../style/main.css" />
-    <!--Import of blog CSS-->
-    <link rel="stylesheet" href="../style/blog.css">
+    <!--Import of ajax CSS-->
+    <link rel="stylesheet" href="../style/ajax.css">
     <!--Link to font Awesome free cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 </head>
@@ -35,7 +35,7 @@
                     <a class="mainMenuLinks" href="../index.html"><span class="anchorGradient">Home</span></a>
                 </li>
                 <li>
-                    <a class="mainMenuLinks" href="#"><span class="anchorGradient">Projects</span></a>
+                    <a class="mainMenuLinks" href="../projects/projects.html"><span class="anchorGradient">Projects</span></a>
                 </li>
                 <li>
                     <a class="mainMenuLinks" href="#"><img src="../img/underconstruction-900x472.jpg" alt=""><span class="anchorGradient">HTML/CSS</span></a>
@@ -54,18 +54,22 @@
     </nav>
     <main>
         <div class="boxwrapper smaller">
-            <h1>Projects</h1>
+            <h1>Poke-selector</h1>
             <section class="welcome box">
-                <h1>Get the name of the attacks of your favourite pokeymon.</h1>
-                <form action="#">
-                    <select name="pokemons" id="pokemon-list">
-                        <option value="first-select-item">Please choose a pokemon</option>
-                    </select>
-                    <input type="submit" value="Go !">
-                </form>
-                <ul class="pokelist">
-                    <li id="li-mockup">Choose a pokemon first</li>
-                </ul>
+                <h2>Get the name of the attacks of your favourite pokeymon and its picture.</h1>
+                    <div class="flexer">
+                        <form action="#">
+                            <select name="pokemons" id="pokemon-list">
+                                <option value="first-select-item">Please choose a pokemon</option>
+                            </select>
+                            <input type="submit" class="call-to-action" value="Go !">
+                        </form>
+                        <div>
+                            <ul class="pokelist">
+                                <li id="li-mockup">Choose a pokemon first</li>
+                            </ul>
+                        </div>
+                    </div>
             </section>
         </div>
     </main>
