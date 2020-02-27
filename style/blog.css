@@ -76,13 +76,6 @@ main {
   margin-bottom: 1rem;
 }
 
-.see-through-box {
-  width: 90vw;
-  -webkit-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 40px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 40px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 3px;
-}
-
 .call-to-action {
   background-color: #9db632;
   text-align: center;
