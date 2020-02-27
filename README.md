@@ -1,11 +1,11 @@
 # ProPort
 Portfolio
 
-
 --- v0.4 ---
 - Cleaning README.md
 - currently online on sashimee.com because of a pitch in front of my class
 - changing the "versioning syntax"
+-  
 
 --- v0.3 ---
 - box design
@@ -19,7 +19,7 @@ Portfolio
 - responsive menu design for >1200px
 - bughunting
 - changing colors
-- taking site offline, need to redo jquery and json parts
+- redo jquery and json parts
 
 --- v0.1 ---
 
