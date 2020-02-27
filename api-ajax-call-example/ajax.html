@@ -2,24 +2,74 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../style/pokemon.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Baskewitsch Alexandre - Portfolio, developer</title>
+    <!--Font import - 2 for text and 1 for raw code-->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Code|Montserrat|Open+Sans&display=swap" rel="stylesheet" />
+    <!--Link to main css-->
+    <link rel="stylesheet" href="../style/main.css" />
+    <!--Import of blog CSS-->
+    <link rel="stylesheet" href="../style/blog.css">
+    <!--Link to font Awesome free cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 </head>
 
 <body>
-    <h1>Get the name of the attacks of your favourite pokeymon.</h1>
-    <form action="#">
-        <select name="pokemons" id="pokemon-list">
-            <option value="first-select-item">Please choose a pokemon</option>
-        </select>
-        <input type="submit" value="Go !">
-    </form>
-    <ul>
-        <li id="li-mockup">Choose a pokemon first</li>
-    </ul>
-
+    <nav>
+        <section id="sideBarWrapper">
+            <div id="bigBar">
+                <div id="buttonBar"><i class="fas fa-bars"></i></div>
+            </div>
+        </section>
+        <section id="mainMenu">
+            <div class="logo">
+                <section id="symbolBorder">
+                    <span id="symbol">#</span>
+                </section>
+                <span id="name">Sashimee</span>
+            </div>
+            <ul>
+                <li>
+                    <a class="mainMenuLinks" href="../index.html"><span class="anchorGradient">Home</span></a>
+                </li>
+                <li>
+                    <a class="mainMenuLinks" href="#"><span class="anchorGradient">Projects</span></a>
+                </li>
+                <li>
+                    <a class="mainMenuLinks" href="#"><img src="../img/underconstruction-900x472.jpg" alt=""><span class="anchorGradient">HTML/CSS</span></a>
+                </li>
+                <li>
+                    <a class="mainMenuLinks" href="#"><img src="../img/underconstruction-900x472.jpg" alt=""><span class="anchorGradient">Javascript</span></a>
+                </li>
+                <li>
+                    <a class="mainMenuLinks" href="#"><img src="../img/underconstruction-900x472.jpg" alt=""><span class="anchorGradient">This project</span></a>
+                </li>
+                <li>
+                    <a class="mainMenuLinks" href="#"><img src="../img/underconstruction-900x472.jpg" alt=""><span class="anchorGradient">Contact</span></a>
+                </li>
+            </ul>
+        </section>
+    </nav>
+    <main>
+        <div class="boxwrapper smaller">
+            <h1>Projects</h1>
+            <section class="welcome box">
+                <h1>Get the name of the attacks of your favourite pokeymon.</h1>
+                <form action="#">
+                    <select name="pokemons" id="pokemon-list">
+                        <option value="first-select-item">Please choose a pokemon</option>
+                    </select>
+                    <input type="submit" value="Go !">
+                </form>
+                <ul class="pokelist">
+                    <li id="li-mockup">Choose a pokemon first</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <script src="../scripts/menu.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../scripts/ajax.js"></script>
 </body>

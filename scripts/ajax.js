@@ -1,7 +1,7 @@
 // global vars
 const pokemonsList = $("#pokemon-list");
 const firstSelectItem = $("option");
-const ul = $("ul");
+const ul = $(".pokelist");
 const liMockup = $("#li-mockup");
 // populate select options
 $.ajax({
@@ -19,27 +19,29 @@ $.ajax({
 //listener on submit
 $("form").on("submit", pokemonChoice);
 //output function
-function pokemonChoice(params) {
+function pokemonChoice() {
     event.preventDefault();
     const userChoice = $("select").prop("value");
 
     //cleanLI
     liMockup.remove();
-    $("li").remove();
+    $(".disposable").remove();
     //call the api with user choice
     $.ajax({
         method: "GET",
         url: ("https://pokeapi.co/api/v2/pokemon/" + userChoice)
     }).done(function(pokeList) {
         //clean images
-        $("img").remove();
+        $(".disposable").remove();
         //create img element
         const imageSkeletal = $("<img>");
         imageSkeletal.attr("src", pokeList.sprites.front_default);
-        $("body").append(imageSkeletal);
+        imageSkeletal.attr("class", "disposable")
+        $(".box").append(imageSkeletal);
         //populate unordered list
         for (const attack of pokeList.abilities) {
             const liMockupClone = liMockup.clone();
+            liMockupClone.attr("class", "disposable")
             liMockupClone.text(capitalize(attack.ability.name));
             ul.append(liMockupClone);
         }
