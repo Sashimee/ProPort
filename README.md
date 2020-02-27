@@ -33,7 +33,7 @@ Portfolio
 - Coding imports + deciding on comment strategy
 - First SASS style + generating CSS + Linking
 - Font var definition
-- Discovered SASS import is even easier then I thought
+- Discovered SASS import is even easier than I thought
 - Tip to myself : Take a fun approach, accept frustration
 - separating all the css by elements, etc...
 - Firt menu design steps, I want a logo ! => Free logo creator sites are bad, desiginng one in CSS
