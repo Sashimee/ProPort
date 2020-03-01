@@ -1,6 +1,9 @@
 # ProPort
 Portfolio
 
+--- v0.5 ---
+- New contact section
+
 --- v0.4 ---
 - Cleaning README.md
 - currently online on sashimee.com

@@ -1,0 +1,98 @@
+@import 'codification'
+
+hr // custom hr bar
+    border-top: 2px solid $colorFourth
+    margin: 1rem
+
+h1,h2,h3,h4,p //text color
+    color: $colorFourth
+    
+h1,h2,h3,h4,h5,h6 
+    font-family: $fontTitles
+p,a 
+    font-family: $fontContent
+
+h1 // all the h2 to the middle
+    text-align: center
+    margin-bottom: 1rem
+
+p,h3 //paragraph settings
+    margin-top: 1rem
+
+.blog-date
+    text-align: right
+
+main // hide the shadows
+    overflow: hidden
+    
+.boxwrapper // div wrapper for horizontal display
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    //margin-top: 1rem //20px
+    //margin-bottom: 1rem //20px
+    height: 100vh
+
+.image // nice image setting
+    background-size: cover
+    background-attachment: fixed
+    //height: 50px
+    background-image: url(../img/AdobeStock_14964377.jpeg)
+
+.top // specify 3 different sizes
+    height: 1rem
+
+.mid
+    height: 2.2rem
+
+.low
+    height: 3rem
+
+.box // normal box setting
+    width: 90vw
+    //border: 1px solid black
+    //box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75), inset 0px 0px 3px 1px rgba(0,0,0,0.75)
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 30px 1px rgba(0, 0, 0, 0.2)//, inset 0px 0px 3px 1px rgba(0,0,0,0.2)
+    //margin: 10px 0
+    padding: 20px
+    border-radius: 3px
+    margin-bottom: 1rem
+
+.call-to-action // Call to action button design
+    background-color: darken($colorSecondary, 40)
+    text-align: center
+    line-height: 2.5rem
+    border-radius: 3px
+    color: black
+    padding: 0.8rem
+
+.cntr //Class for the call to action div to center the button
+    text-align: center
+    margin-top: 1rem
+// Large devices (laptops/desktops, 1200px and up) */
+@media screen and (min-width: 1200px)
+    .box, .see-through-box
+        width: 800px
+        margin-bottom: 5rem
+    //.image
+        //height: 10vh
+    h1
+        margin-bottom: 5rem
+    h2,h3,h4,h5,p
+        text-align: center
+    .top
+        display: none
+    .mid
+        display: none
+    .low
+        height: 31vh
+    .boxwrapper
+        height: 100vh
+    .smaller
+        height: 92vh
+    .actionboxes
+        display: flex
+        justify-content: center
+        div
+            margin: 1rem
