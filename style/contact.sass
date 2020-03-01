@@ -9,12 +9,10 @@ h1,h2,h3,h4,p //text color
     
 h1,h2,h3,h4,h5,h6 
     font-family: $fontTitles
-p,a 
-    font-family: $fontContent
-
-h1 // all the h2 to the middle
     text-align: center
     margin-bottom: 1rem
+p,a 
+    font-family: $fontContent
 
 p,h3 //paragraph settings
     margin-top: 1rem
@@ -34,11 +32,19 @@ main // hide the shadows
     //margin-bottom: 1rem //20px
     height: 100vh
 
+.see-through-box //general see through box setting
+    width: 90vw
+    //border: 1px solid black
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 40px 1px rgba(0, 0, 0, 0.2)//, inset 0px 0px 3px 1px rgba(0,0,0,0.2)
+    border-radius: 3px
+    margin-bottom: 1rem
+
 .image // nice image setting
     background-size: cover
     background-attachment: fixed
+    background-position: center
     //height: 50px
-    background-image: url(../img/AdobeStock_14964377.jpeg)
+    background-image: url(../img/contact.jpg)
 
 .top // specify 3 different sizes
     height: 1rem
@@ -47,7 +53,7 @@ main // hide the shadows
     height: 2.2rem
 
 .low
-    height: 3rem
+    height: 6rem
 
 .box // normal box setting
     width: 90vw
@@ -59,17 +65,27 @@ main // hide the shadows
     border-radius: 3px
     margin-bottom: 1rem
 
-.call-to-action // Call to action button design
-    background-color: darken($colorSecondary, 40)
-    text-align: center
-    line-height: 2.5rem
-    border-radius: 3px
-    color: black
-    padding: 0.8rem
-
 .cntr //Class for the call to action div to center the button
     text-align: center
     margin-top: 1rem
+
+.cntc
+    font-size: 3rem
+    width: 7rem
+    height: 7rem
+    color: darken($colorSecondary, 40)
+    border: 5px solid $colorSecondary
+    border-radius: 50%
+    padding: 1rem
+    display: inline-flex
+    justify-content: center
+    align-items: center
+
+.cntc:hover
+    color: blue
+    border: 5px solid lighten(blue,40)
+    background-color: lighten(blue,45)
+
 // Large devices (laptops/desktops, 1200px and up) */
 @media screen and (min-width: 1200px)
     .box, .see-through-box

@@ -1,8 +1,8 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-transition-duration: 0s;
-          transition-duration: 0s;
+  -webkit-transition-duration: 0.24s;
+          transition-duration: 0.24s;
 }
 
 a {

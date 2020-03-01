@@ -3,6 +3,7 @@ Portfolio
 
 --- v0.5 ---
 - New contact section
+- cleaning "under construction" icons
 
 --- v0.4 ---
 - Cleaning README.md
