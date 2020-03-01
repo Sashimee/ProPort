@@ -11,6 +11,10 @@ h1,h2,h3,h4,h5,h6
     font-family: $fontTitles
     text-align: center
     margin-bottom: 1rem
+h1
+    font-family: $fontTitles
+    text-align: center
+
 p,a 
     font-family: $fontContent
 
@@ -27,7 +31,7 @@ main // hide the shadows
     display: flex
     flex-direction: column
     align-items: center
-    justify-content: center
+    justify-content: space-around
     //margin-top: 1rem //20px
     //margin-bottom: 1rem //20px
     height: 100vh
@@ -37,7 +41,6 @@ main // hide the shadows
     //border: 1px solid black
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 40px 1px rgba(0, 0, 0, 0.2)//, inset 0px 0px 3px 1px rgba(0,0,0,0.2)
     border-radius: 3px
-    margin-bottom: 1rem
 
 .image // nice image setting
     background-size: cover
@@ -63,7 +66,6 @@ main // hide the shadows
     //margin: 10px 0
     padding: 20px
     border-radius: 3px
-    margin-bottom: 1rem
 
 .cntr //Class for the call to action div to center the button
     text-align: center
@@ -88,13 +90,12 @@ main // hide the shadows
 
 // Large devices (laptops/desktops, 1200px and up) */
 @media screen and (min-width: 1200px)
-    .box, .see-through-box
+    .box
         width: 800px
-        margin-bottom: 5rem
+    .see-through-box
+        width: 96vw
     //.image
         //height: 10vh
-    h1
-        margin-bottom: 5rem
     h2,h3,h4,h5,p
         text-align: center
     .top
@@ -102,7 +103,7 @@ main // hide the shadows
     .mid
         display: none
     .low
-        height: 31vh
+        height: 28vh
     .boxwrapper
         height: 100vh
     .smaller

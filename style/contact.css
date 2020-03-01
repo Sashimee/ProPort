@@ -13,6 +13,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
 }
 
+h1 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
 p, a {
   font-family: "Montserrat", sans-serif;
 }
@@ -40,9 +45,8 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   height: 100vh;
 }
 
@@ -51,7 +55,6 @@ main {
   -webkit-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 40px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 40px 1px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
-  margin-bottom: 1rem;
 }
 
 .image {
@@ -79,7 +82,6 @@ main {
           box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 30px 1px rgba(0, 0, 0, 0.2);
   padding: 20px;
   border-radius: 3px;
-  margin-bottom: 1rem;
 }
 
 .cntr {
@@ -113,12 +115,11 @@ main {
 }
 
 @media screen and (min-width: 1200px) {
-  .box, .see-through-box {
+  .box {
     width: 800px;
-    margin-bottom: 5rem;
   }
-  h1 {
-    margin-bottom: 5rem;
+  .see-through-box {
+    width: 96vw;
   }
   h2, h3, h4, h5, p {
     text-align: center;
@@ -130,7 +131,7 @@ main {
     display: none;
   }
   .low {
-    height: 31vh;
+    height: 28vh;
   }
   .boxwrapper {
     height: 100vh;
