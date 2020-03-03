@@ -17,32 +17,7 @@
 </head>
 
 <body>
-    <nav>
-        <section id="sideBarWrapper">
-            <div id="bigBar">
-                <div id="buttonBar"><i class="fas fa-bars"></i></div>
-            </div>
-        </section>
-        <section id="mainMenu">
-            <div class="logo">
-                <section id="symbolBorder">
-                    <span id="symbol">#</span>
-                </section>
-                <span id="name">Sashimee</span>
-            </div>
-            <ul>
-                <li>
-                    <a class="mainMenuLinks" href="../index.html"><span class="anchorGradient">Home</span></a>
-                </li>
-                <li>
-                    <a class="mainMenuLinks" href="#"><span class="anchorGradient">Projects</span></a>
-                </li>
-                <li>
-                    <a class="mainMenuLinks" href="../contact/contact.html"><span class="anchorGradient">Contact</span></a>
-                </li>
-            </ul>
-        </section>
-    </nav>
+    <?php include('/var/www/php_include/menu.php') ?>
     <main>
         <div class="boxwrapper smaller">
             <h1>Projects</h1>
@@ -51,7 +26,7 @@
                 <p>The purpose of this page is to show, on a regular basis, new ideas I've come up with.</p>
                 <p>So here is a small example of an ajax call.</p>
                 <p class="cntr">
-                    <a href="../api-ajax-call-example/ajax.html" class="call-to-action">Here</a>
+                    <a href="../api-ajax-call-example/ajax.php" class="call-to-action">Here</a>
                 </p>
             </section>
             <section class="welcome box">

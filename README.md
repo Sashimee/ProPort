@@ -2,7 +2,10 @@
 Portfolio
 
 --- v0.6 ---
-- Converting everything to php
+- Migrating to php
+- Setting up lamp stack
+- Getting domain
+- configuring SSL certificates for domain & subdomains
 
 --- v0.5 ---
 - New contact section

@@ -13,13 +13,13 @@
         </div>
         <ul>
             <li>
-                <a class="mainMenuLinks" href="#"><span class="anchorGradient">Home</span></a>
+                <a class="mainMenuLinks" href="../index.php"><span class="anchorGradient">Home</span></a>
             </li>
             <li>
-                <a class="mainMenuLinks" href="projects/projects.html"><span class="anchorGradient">Projects</span></a>
+                <a class="mainMenuLinks" href="../projects/projects.php"><span class="anchorGradient">Projects</span></a>
             </li>
             <li>
-                <a class="mainMenuLinks" href="contact/contact.html"><span class="anchorGradient">Contact</span></a>
+                <a class="mainMenuLinks" href="../contact/contact.php"><span class="anchorGradient">Contact</span></a>
             </li>
         </ul>
     </section>
