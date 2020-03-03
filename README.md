@@ -1,6 +1,9 @@
 # ProPort
 Portfolio
 
+--- v0.6 ---
+- Converting everything to php
+
 --- v0.5 ---
 - New contact section
 - cleaning "under construction" icons
