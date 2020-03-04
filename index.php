@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <?php include('/var/www/php_include/menu.php') ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/php_include/menu.php'); ?>
     <main>
         <div class="boxwrapper smaller">
             <section class="top image see-through-box"></section>
