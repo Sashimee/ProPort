@@ -35,7 +35,7 @@
                     <div class="project">
                         <h3>Stay up-to-date</h3>
                         <div class="cntr">
-                            <a href="projects/projects.html" class="call-to-action">Latest projects</a>
+                            <a href="projects/projects.php" class="call-to-action">Latest projects</a>
                         </div>
                     </div>
                     <div class="github">
