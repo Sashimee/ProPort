@@ -9,17 +9,15 @@ h1, h2, h3, h4, p {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-h1 {
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
 }
 
 p, a {
   font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 p, h3 {
@@ -45,23 +43,15 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  height: 100vh;
-}
-
-.see-through-box {
-  width: 90vw;
-  -webkit-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 40px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 40px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 3px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .image {
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
-  background-image: url(../img/contact.jpg);
+  background-image: url(../img/AdobeStock_14964377.jpeg);
 }
 
 .top {
@@ -73,7 +63,7 @@ main {
 }
 
 .low {
-  height: 4.5rem;
+  height: 3rem;
 }
 
 .box {
@@ -82,6 +72,16 @@ main {
           box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 30px 1px rgba(0, 0, 0, 0.2);
   padding: 20px;
   border-radius: 3px;
+  margin-bottom: 1rem;
+}
+
+.call-to-action {
+  background-color: #9db632;
+  text-align: center;
+  line-height: 2.5rem;
+  border-radius: 3px;
+  color: black;
+  padding: 0.8rem;
 }
 
 .cntr {
@@ -89,37 +89,13 @@ main {
   margin-top: 1rem;
 }
 
-.cntc {
-  font-size: 3rem;
-  width: 7rem;
-  height: 7rem;
-  color: #9db632;
-  border: 5px solid #e7efc5;
-  border-radius: 50%;
-  padding: 1rem;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.cntc:hover {
-  color: blue;
-  border: 5px solid #ccccff;
-  background-color: #e6e6ff;
-}
-
 @media screen and (min-width: 1200px) {
-  .box {
-    width: 800px;
+  .box, .see-through-box {
+    width: 98vw;
+    margin-bottom: 5rem;
   }
-  .see-through-box {
-    width: 96vw;
+  h1 {
+    margin-bottom: 5rem;
   }
   h2, h3, h4, h5, p {
     text-align: center;
@@ -131,13 +107,7 @@ main {
     display: none;
   }
   .low {
-    height: 28vh;
-  }
-  .boxwrapper {
-    height: 100vh;
-  }
-  .smaller {
-    height: 92vh;
+    height: 31vh;
   }
   .actionboxes {
     display: -webkit-box;
@@ -151,4 +121,4 @@ main {
     margin: 1rem;
   }
 }
-/*# sourceMappingURL=contact.css.map */
+/*# sourceMappingURL=projects.css.map */
