@@ -9,9 +9,9 @@
     <!--Font import - 2 for text and 1 for raw code-->
     <link href="https://fonts.googleapis.com/css?family=Fira+Code|Montserrat|Open+Sans&display=swap" rel="stylesheet" />
     <!--Link to main css-->
-    <link rel="stylesheet" href="../style/main.css" />
+    <link rel="stylesheet" href="/style/main.css" />
     <!--Import of blog CSS-->
-    <link rel="stylesheet" href="../style/blog.css">
+    <link rel="stylesheet" href="/style/blog.css">
     <!--Link to font Awesome free cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 </head>
@@ -26,7 +26,7 @@
                 <p>The purpose of this page is to show, on a regular basis, new ideas I've come up with.</p>
                 <p>So here is a small example of an ajax call.</p>
                 <p class="cntr">
-                    <a href="../api-ajax-call-example/ajax.php" class="call-to-action">Here</a>
+                    <a href="/api-ajax-call-example/ajax.php" class="call-to-action">Here</a>
                 </p>
             </section>
             <section class="welcome box">

@@ -9,11 +9,11 @@
     <!--Font import - 2 for text and 1 for raw code-->
     <link href="https://fonts.googleapis.com/css?family=Fira+Code|Montserrat|Open+Sans&display=swap" rel="stylesheet" />
     <!--Link to main css-->
-    <link rel="stylesheet" href="../../style/main.css" />
+    <link rel="stylesheet" href="/style/main.css" />
     <!--Link to font Awesome free cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <!--Import of contact CSS-->
-    <link rel="stylesheet" href="../../style/contact.css">
+    <link rel="stylesheet" href="/style/contact.css">
 </head>
 
 <body>
@@ -48,7 +48,6 @@
     }
     ?>
     <?php
-    //include('../../php_include/menu.php') 
     include($_SERVER['DOCUMENT_ROOT'] . '/php_include/menu.php');
     ?>
     <main>
@@ -60,7 +59,6 @@
                     <input type="submit" name="submit" value="Test">
                 </form>
                 <?php
-                var_dump($_SERVER);
                 if (isset($_POST['submit'])) { // If submit check if the input is ordered
                     $noSpace = str_replace(' ', '', $toSort);
                     $workableArray = explode(',', $noSpace);
