@@ -22,6 +22,13 @@
         <div class="boxwrapper">
             <h1>Projects</h1>
             <section class="welcome box">
+                <h2>PHP Input Validation</h2>
+                <p>PHP Implementation of a subscription form.</p>
+                <p class="cntr">
+                    <a href="/projects/php/page2.php" class="call-to-action">Go</a>
+                </p>
+            </section>
+            <section class="welcome box">
                 <h2>Ajax call to a free API</h2>
                 <p>Click on the button to see an example of an Ajax call to an API.</p>
                 <p class="cntr">

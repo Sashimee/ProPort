@@ -1,0 +1,139 @@
+@import 'codification'
+
+// Paste of the imported *.sass
+
+$font: 'Spartan', sans-serif
+ 
+.red-border
+    border-color: red
+.blue-border
+    border-color: darken($colorSecondary, 40)
+
+
+
+form
+    input
+        border-radius: 0.3rem
+        width: 200px
+    [type="submit"]
+        background-color: darken($colorSecondary, 40)
+        width: 100px
+    [type="checkbox"]
+        width: initial
+
+
+// END OF PASTE
+    
+hr // custom hr bar
+    border-top: 2px solid $colorFourth
+    margin: 1rem
+
+h1,h2,h3,h4,p //text color
+    color: $colorFourth
+    
+h1,h2,h3,h4,h5,h6 
+    font-family: $fontTitles
+    text-align: center
+    margin-bottom: 1rem
+h1
+    font-family: $fontTitles
+    text-align: center
+
+p,a 
+    font-family: $fontContent
+
+p,h3 //paragraph settings
+    margin-top: 1rem
+
+.blog-date
+    text-align: right
+
+main // hide the shadows
+    overflow: hidden
+    
+.boxwrapper // div wrapper for horizontal display
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    //margin-top: 1rem //20px
+    //margin-bottom: 1rem //20px
+    height: 100vh
+
+.see-through-box //general see through box setting
+    width: 90vw
+    //border: 1px solid black
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 40px 1px rgba(0, 0, 0, 0.2)//, inset 0px 0px 3px 1px rgba(0,0,0,0.2)
+    border-radius: 3px
+
+.image // nice image setting
+    background-size: cover
+    background-attachment: fixed
+    background-position: center
+    //height: 50px
+    background-image: url(../img/contact.jpg)
+
+.top // specify 3 different sizes
+    height: 1rem
+
+.mid
+    height: 2.2rem
+
+.low
+    height: 4.5rem
+
+.box // normal box setting
+    width: 90vw
+    //border: 1px solid black
+    //box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75), inset 0px 0px 3px 1px rgba(0,0,0,0.75)
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 30px 1px rgba(0, 0, 0, 0.2)//, inset 0px 0px 3px 1px rgba(0,0,0,0.2)
+    //margin: 10px 0
+    padding: 20px
+    border-radius: 3px
+
+.cntr //Class for the call to action div to center the button
+    text-align: center
+    margin-top: 1rem
+
+.cntc
+    font-size: 3rem
+    width: 7rem
+    height: 7rem
+    color: darken($colorSecondary, 40)
+    border: 5px solid $colorSecondary
+    border-radius: 50%
+    padding: 1rem
+    display: inline-flex
+    justify-content: center
+    align-items: center
+
+.cntc:hover
+    color: blue
+    border: 5px solid lighten(blue,40)
+    background-color: lighten(blue,45)
+
+// Large devices (laptops/desktops, 1200px and up) */
+@media screen and (min-width: 1200px)
+    .box
+        width: 800px
+    .see-through-box
+        width: 96vw
+    //.image
+        //height: 10vh
+    h2,h3,h4,h5,p
+        text-align: center
+    .top
+        display: none
+    .mid
+        display: none
+    .low
+        height: 28vh
+    .boxwrapper
+        height: 100vh
+    .smaller
+        height: 92vh
+    .actionboxes
+        display: flex
+        justify-content: center
+        div
+            margin: 1rem

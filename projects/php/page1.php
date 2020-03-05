@@ -13,7 +13,7 @@
     <!--Link to font Awesome free cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <!--Import of contact CSS-->
-    <link rel="stylesheet" href="/style/contact.css">
+    <link rel="stylesheet" href="/style/php-project1.css">
 </head>
 
 <body>
@@ -44,7 +44,7 @@
 
     $toSort = ""; //"" so that it is empty if nothing was submitted
     if (isset($_POST['submit'])) {
-        $toSort = $_POST['to-sort'];
+        $toSort = filter_var($_POST['to-sort'], FILTER_SANITIZE_STRING);
     }
     ?>
     <?php
