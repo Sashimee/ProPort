@@ -28,6 +28,7 @@
                 <hr>
                 <h3>Full Stack Developer</h3>
                 <div class="cntr">
+                    <a href="mailto:alex@baskewitsch.lu"><i class="fas fa-at cntc"></i></a>
                     <a href="https://www.linkedin.com/in/abask/" target="_blank"><i class="fab fa-linkedin-in cntc"></i></a>
                 </div>
             </section>
