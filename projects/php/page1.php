@@ -71,7 +71,7 @@
 
         </div>
     </main>
-    <script src="../scripts/menu.js"></script>
+    <script src="/scripts/menu.js"></script>
 </body>
 
 </html>
