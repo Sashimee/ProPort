@@ -5,6 +5,7 @@ Portfolio
 - Learned how to sanitize inputs with php
 - Added a new contact possibility
 - Fixing some screen issues on lower resolutions
+- Added some animated buttons
 
 --- v0.6 ---
 - Migrating to php
