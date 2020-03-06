@@ -1,0 +1,21 @@
+.red-border {
+  border-color: red;
+}
+
+.blue-border {
+  border-color: blue;
+}
+
+form input {
+  border-radius: 0.3rem;
+  width: 200px;
+}
+
+form [type="submit"] {
+  width: 100px;
+}
+
+form [type="checkbox"] {
+  width: initial;
+}
+/*# sourceMappingURL=shop.css.map */
