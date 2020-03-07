@@ -8,10 +8,10 @@
     <title>Baskewitsch Alexandre - Portfolio, developer</title>
     <!--Font import - 2 for text and 1 for raw code-->
     <link href="https://fonts.googleapis.com/css?family=Fira+Code|Montserrat|Open+Sans&display=swap" rel="stylesheet" />
-    <!--Link to main css-->
-    <link rel="stylesheet" href="/style/main.css" />
     <!--Link to font Awesome free cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <!--Link to main css-->
+    <link rel="stylesheet" href="/style/main.css" />
     <!--Import of contact CSS-->
     <link rel="stylesheet" href="/style/contact.css">
 </head>
@@ -126,7 +126,7 @@
             </section>
         </div>
     </main>
-    <script src="../scripts/menu.js"></script>
+    <script src="/scripts/menu.js"></script>
 </body>
 
 </html>

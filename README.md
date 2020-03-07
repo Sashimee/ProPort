@@ -1,5 +1,8 @@
 # ProPort
 Portfolio
+---v0.8
+- Added contact formulary
+
 ---v0.7---
 - New project added
 - Learned how to sanitize inputs with php
