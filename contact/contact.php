@@ -11,9 +11,9 @@
     <!--Link to font Awesome free cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <!--Link to main css-->
-    <link rel="stylesheet" href="/style/main.css" />
+    <link rel="stylesheet" href="/style/main.min.css" />
     <!--Import of contact CSS-->
-    <link rel="stylesheet" href="/style/contact.css">
+    <link rel="stylesheet" href="/style/contact.min.css">
 </head>
 
 <body>

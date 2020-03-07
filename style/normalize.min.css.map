@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,CAAC,AAAC,CACE,UAAU,CAAE,UAAU,CACtB,mBAAmB,CAAE,KAAK,CAAG,AAIjC,AAAA,CAAC,AAAC,CACE,eAAe,CAAE,IAAI,CAAG,AAI5B,AAAA,CAAC,AAAA,IAAK,CAAA,KAAK,CAAE,CACT,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,CAAC,CAAG,AAEhB,AAAA,CAAC,AAAC,CACE,UAAU,CAAE,OAAO,CAAG",
+    "sources": [
+        "normalize.sass"
+    ],
+    "names": [],
+    "file": "normalize.min.css"
+}
