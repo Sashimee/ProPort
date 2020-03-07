@@ -31,23 +31,23 @@ main // hide the shadows
     display: flex
     flex-direction: column
     align-items: center
-    justify-content: space-around
+    margin-top: 1rem
     //margin-top: 1rem //20px
     //margin-bottom: 1rem //20px
-    height: 100vh
 
 .see-through-box //general see through box setting
     width: 90vw
     //border: 1px solid black
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2), 0 0 40px 1px rgba(0, 0, 0, 0.2)//, inset 0px 0px 3px 1px rgba(0,0,0,0.2)
     border-radius: 3px
+    margin: 1rem 0
 
 .image // nice image setting
     background-size: cover
     background-attachment: fixed
     background-position: center
     //height: 50px
-    background-image: url(../img/contact.jpg)
+    background-image: url(/img/contact.jpg)
 
 .top // specify 3 different sizes
     height: 1rem
@@ -66,6 +66,20 @@ main // hide the shadows
     //margin: 10px 0
     padding: 20px
     border-radius: 3px
+    margin: 1rem 0
+
+.send-btn // Call to action button design
+    background-color: darken($colorSecondary, 40)
+    text-align: center
+    line-height: 2.5rem
+    border-radius: 3px
+    color: $colorFourth
+    padding: 0.8rem
+    font-size: 1.5rem
+
+.send-btn:hover
+    background-color: darken($colorSecondary, 30)
+    box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.25)
 
 .cntr //Class for the call to action div to center the button
     text-align: center
@@ -82,12 +96,36 @@ main // hide the shadows
     display: inline-flex
     justify-content: center
     align-items: center
+    margin: 0.5rem
 
 .cntc:hover
     color: darken($colorSecondary, 40)
     border: 5px solid darken($colorSecondary, 20)
     background-color: $colorSecondary
     box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.25)
+
+.form-wrapper
+    display: flex
+    justify-content: center
+    form
+        margin: 1rem
+        display: flex
+        flex-direction: column
+        width: 100%
+        input:not([type=submit]), textarea
+            border-radius: 3px
+            margin-bottom: 1rem
+            padding: 1rem
+            font-family: $fontContent
+            resize: none
+        [type=submit]
+            font-family: $fontTitles
+
+.red-border
+    border: 2px solid red
+.blue-border
+    border: 2px solid $colorSecondary
+
 
 // Large devices (laptops/desktops, 1200px and up) */
 @media screen and (min-width: 1200px)
@@ -104,7 +142,7 @@ main // hide the shadows
     .mid
         display: none
     .low
-        height: 24vh
+        height: 24rem
     .boxwrapper
         height: 100vh
     .smaller
