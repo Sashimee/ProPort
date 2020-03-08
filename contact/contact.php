@@ -105,12 +105,13 @@
                 <h1>Contact</h1>
                 <div class="form-wrapper" <?php echo $formStyle ?>>
                     <form action="contact.php" method="post">
-                        <input type="text" name="f-name" id="f-name" placeholder="First Name ..." <?php echo $fNameStyle ?> value="<?php echo $fName ?>">
-                        <input type="text" name="l-name" id="l-name" placeholder="Last Name ..." <?php echo $lNameStyle ?> value="<?php echo $lName ?>">
+                        <input type="text" name="f-name" id="f-name" placeholder="First Name ... *" <?php echo $fNameStyle ?> value="<?php echo $fName ?>">
+                        <input type="text" name="l-name" id="l-name" placeholder="Last Name ... *" <?php echo $lNameStyle ?> value="<?php echo $lName ?>">
                         <input type="text" name="company" id="company" placeholder="Company ..." <?php echo $companyStyle ?> value="<?php echo $company ?>">
-                        <input type="text" name="email" id="email" placeholder="E-mail ..." <?php echo $eMailStyle ?> value="<?php echo $eMail ?>">
+                        <input type="text" name="email" id="email" placeholder="E-mail ... *" <?php echo $eMailStyle ?> value="<?php echo $eMail ?>">
                         <input type="tel" name="phone" id="phone" placeholder="Phone Number ..." <?php echo $phoneStyle ?> value="<?php echo $phoneNumber ?>">
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Please write your message here ..." <?php echo $messageStyle ?>><?php echo $message ?></textarea>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Please write your message here ... *" <?php echo $messageStyle ?>><?php echo $message ?></textarea>
+                        <p class="required">* = Required</p>
                         <input class="send-btn" type="submit" name="submit" value="Send">
                     </form>
                 </div>

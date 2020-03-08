@@ -1,7 +1,7 @@
 # ProPort
 Portfolio
 ---v0.8
-- Added contact formulary
+- Added contact form made with php and sendmail()
 
 ---v0.7---
 - New project added
