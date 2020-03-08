@@ -87,7 +87,8 @@
             ";
             $headers = "MIME-Version: 1.0" . "\r\n";
             $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-            $headers .= 'From: <alex@baskewitsch.lu>' . "\r\n";
+            $headers .= 'From: <noreply@baskewitsch.lu>' . "\r\n";
+            $headers .= 'Reply-To: <alex@baskewitsch.lu>' . "\r\n";
             mail($toOwner, $subjectOwner, $messageOwner, $headers);
             mail($toContact, $subjectContact, $messageContact, $headers);
             $formStyle = $dNone;
