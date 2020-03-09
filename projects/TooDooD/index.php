@@ -135,6 +135,31 @@
                     $queryResult = mysqli_query($dbConnection, $query);
                     if ($queryResult) {
                         $formToRender = '<p style="color:red">Account successfully created. Please log in.</p>' . $signInForm;
+                        $toContact = $email;
+                        $subjectContact = "TooDooD Account creation";
+                        $messageContact = "
+                                        <html>
+                                        <head>
+                                        <title>HTML email</title>
+                                        </head>
+                                        <body>
+                                        <h1>TooDooD Account</h1>
+                                        <h2>Your account has been successfully created</h2>
+                                        <p></p>
+                                        <p>If you have any problem with your account, feel free to respond to this message.</p>
+                                        <p></p>
+                                        <p>The password you chose is not included in this e-mail for security reasons and cannot be retrieved in any manner.</p>
+                                        <p>Please visit <a href='https://github.com/Sashimee/ProPort/blob/master/projects/TooDooD/index.php'>github.com</a> for the complete source code of TooDooD.</p>
+                                        <p></p>
+                                        <p>Have a nice day !</p>
+                                        </body>
+                                        </html>
+                                        ";
+                        $headers = "MIME-Version: 1.0" . "\r\n";
+                        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+                        $headers .= 'From: <noreply@baskewitsch.lu>' . "\r\n";
+                        $headers .= 'Reply-To: <alex@baskewitsch.lu>' . "\r\n";
+                        mail($toContact, $subjectContact, $messageContact, $headers);
                     }
                 }
                 mysqli_close($dbConnection);
