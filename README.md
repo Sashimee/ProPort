@@ -1,7 +1,9 @@
 # ProPort
 Portfolio
----v0.8
+
+---v0.8---
 - Added contact form made with php and sendmail()
+- Added TooDooD
 
 ---v0.7---
 - New project added

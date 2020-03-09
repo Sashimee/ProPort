@@ -29,7 +29,7 @@
                         <form action="index.php" method="post">
                             <input type="text" name="email" id="email" placeholder="E-mail ..."><br>
                             <input type="password" name="pwd" id="pwd" placeholder="Password ..."><br>
-                            <input type="submit" name="sign-in" value="Enter">
+                            <input type="submit" name="sign-in" value="Connect">
                             <input type="submit" value="Switch to sign-up" name="to-sign-up">
                          </form>
                     </div>';
@@ -39,7 +39,7 @@
                             <input type="text" name="email" id="email" placeholder="E-mail ..."><br>
                             <input type="password" name="pwd" id="pwd" placeholder="Password ..."><br>
                             <input type="password" name="pwd-confirm" id="pwd-confirm" placeholder="Confirm Password ..."><br>
-                            <input type="submit" name="sign-up" value="Enter">
+                            <input type="submit" name="sign-up" value="Sign up">
                             <input type="submit" value="Switch to sign-in" name="to-sign-in">
                         </form>
                        </div>';
@@ -135,7 +135,7 @@
                     $queryResult = mysqli_query($dbConnection, $query);
                     if ($queryResult) {
                         // ! Message create account success
-                        $formToRender = $signInForm;
+                        $formToRender = '<p style="color:red">Account successfully created. Please log in.</p>' . $signInForm;
                     }
                 }
                 mysqli_close($dbConnection);
