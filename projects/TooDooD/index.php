@@ -26,7 +26,7 @@
     $validation = true;
     $signInForm = '<div class="sign-in"> 
                         <h2>Connect</h2>
-                        <form action="/projects/toodood/index.php" method="post">
+                        <form action="index.php" method="post">
                             <input type="text" name="email" id="email" placeholder="Use your e-mail as a login..."><br>
                             <input type="password" name="pwd" id="pwd" placeholder="Password"><br>
                             <input type="submit" name="sign-in" value="Enter">
@@ -35,7 +35,7 @@
                     </div>';
     $signUpForm = '<div class="sign-up">
                         <h2>Create account</h2>
-                        <form action="/projects/toodood/index.php" method="post">
+                        <form action="index.php" method="post">
                             <input type="text" name="email" id="email" placeholder="Use your e-mail as a login..."><br>
                             <input type="password" name="pwd" id="pwd" placeholder="Password"><br>
                             <input type="password" name="pwd-confirm" id="pwd-confirm" placeholder="Confirm Password"><br>
@@ -43,7 +43,7 @@
                             <input type="submit" value="Switch to sign-in" name="to-sign-in">
                         </form>
                        </div>';
-    $addTaskForm = '<form action="/projects/toodood/index.php" method="post">
+    $addTaskForm = '<form action="index.php" method="post">
                             <input type="text" name="newtask">
                             <input type="submit" name="add-task" value="Add">
                         </form>';
@@ -63,12 +63,12 @@
                 $queryTaskList = "SELECT task.task_title, task.task_text, task.id FROM ((task INNER JOIN task_list ON task.id=task_list.task_id) INNER JOIN user ON task_list.user_id=user.id) WHERE user.session_id='" . session_id() . "'";
                 $taskList = mysqli_query($dbConnection, $queryTaskList);
                 while ($line = mysqli_fetch_assoc($taskList)) {
-                    $taskListRender .= '<form action="/projects/toodood/index.php" method="post">';
+                    $taskListRender .= '<form action="index.php" method="post">';
                     $taskListRender .= '<input type="text" name="to-delete" value="' . $line['id'] . '"  style="display:none;">';
                     $taskListRender .= '<label>' .  $line['task_title'] . '</label>';
                     $taskListRender .= '<input type="submit" name="delete-task" value="Done"></form>';
                 }
-                $logoutRender = '<br><form action="/projects/toodood/index.php" method="post">
+                $logoutRender = '<br><form action="index.php" method="post">
                                          <input type="submit" name="logout" value="logout">
                                      </form>';
             }
