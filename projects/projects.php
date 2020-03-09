@@ -22,6 +22,13 @@
         <div class="boxwrapper">
             <h1>Projects</h1>
             <section class="welcome box">
+                <h2>TooDooD</h2>
+                <p>Todo list with account creation. You need to login and you only have access to your own tasks</p>
+                <p class="cntr">
+                    <a href="/projects/TooDooD/index.php" class="call-to-action">Go</a>
+                </p>
+            </section>
+            <section class="welcome box">
                 <h2>PHP Input Validation</h2>
                 <p>PHP Implementation of a subscription form.</p>
                 <p class="cntr">
