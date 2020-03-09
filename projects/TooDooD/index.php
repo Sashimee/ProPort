@@ -134,12 +134,10 @@
                     $query = "INSERT INTO user(email, pwd) VALUES ('" . $email . "','" . $pwdHash . "')";
                     $queryResult = mysqli_query($dbConnection, $query);
                     if ($queryResult) {
-                        // ! Message create account success
                         $formToRender = '<p style="color:red">Account successfully created. Please log in.</p>' . $signInForm;
                     }
                 }
                 mysqli_close($dbConnection);
-                // ! INSERT CODE TO NO DUPLICATE MAIL
             }
         } elseif (isset($_POST['sign-in'])) {
             $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
