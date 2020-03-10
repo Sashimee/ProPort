@@ -92,8 +92,9 @@
             header("Refresh:0");
         }
         if (isset($_POST['delete-task'])) {
+            $postToDelete = filter_id($_POST['to-delete'], FILTER_SANITIZE_NUMBER_INT);
             $dbConnection = mysqli_connect(DB_SERVER, DB_USER, DB_PWD, DB_NAME);
-            $query = "DELETE FROM task WHERE id='" . $_POST['to-delete'] . "'";
+            $query = "DELETE FROM task WHERE id='" . $postToDelete . "'";
             mysqli_query($dbConnection, $query);
             mysqli_close($dbConnection);
             header("Refresh:0");
