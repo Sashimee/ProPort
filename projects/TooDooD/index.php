@@ -71,6 +71,10 @@
                 $logoutRender = '<br><form action="index.php" method="post">
                                          <input type="submit" name="logout" value="logout">
                                      </form>';
+                break;
+            } else {
+                setcookie('session_id', '', time() - 3600);
+                $formToRender = $signInForm;
             }
         }
         mysqli_close($dbConnection);
