@@ -43,8 +43,8 @@
                             <input type="submit" value="Switch to sign-in" name="to-sign-in">
                         </form>
                        </div>';
-    $addTaskForm = '<form class="todo-add" action="index.php" method="post" autofocus>
-                            <input type="text" name="newtask">
+    $addTaskForm = '<form class="todo-add" action="index.php" method="post">
+                            <input type="text" name="newtask" autofocus>
                             <input class="todo-submit" type="submit" name="add-task" value="Add">
                         </form>';
 
