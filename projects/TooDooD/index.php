@@ -43,8 +43,8 @@
                             <input type="submit" value="Switch to sign-in" name="to-sign-in">
                         </form>
                        </div>';
-    $addTaskForm = '<form class="todo-add" action="index.php" method="post" autofocus>
-                            <input type="text" name="newtask">
+    $addTaskForm = '<form class="todo-add" action="index.php" method="post">
+                            <input type="text" name="newtask" autofocus>
                             <input class="todo-submit" type="submit" name="add-task" value="Add">
                         </form>';
 
@@ -157,7 +157,7 @@
                                         ";
                         $headers = "MIME-Version: 1.0" . "\r\n";
                         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-                        $headers .= 'From: <noreply@baskewitsch.lu>' . "\r\n";
+                        $headers .= 'From: <alex@baskewitsch.lu>' . "\r\n";
                         $headers .= 'Reply-To: <alex@baskewitsch.lu>' . "\r\n";
                         mail($toContact, $subjectContact, $messageContact, $headers);
                     }
